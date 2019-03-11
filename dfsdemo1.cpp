@@ -29,7 +29,7 @@ int main()
    for(i=1;i<=n;i++)
         visited[i]=0;
  
-    DFS(3);
+    for(int i=1;i<g.n
     printf("\n");
     for(i=1;i<=n;i++)
     	printf("%4d",visited[i]);
@@ -43,7 +43,7 @@ void DFS(int i)
     visited[i]=1;
 	
 	for(j=1;j<=n;j++)
-       if(!visited[j]&&G[i][j]==1)
+       if(!visited[j] && G[i][j]==1)
             DFS(j);
 }
 

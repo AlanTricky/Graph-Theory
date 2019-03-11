@@ -1,7 +1,7 @@
 #include<conio.h>
 #include<stdio.h>
 
-#define MAX 10
+#define MAX 43
 #define inputfile "C:/Users/Administrator/Desktop/THLTDT/Bo du lieu test/test1.txt"
 #define outputfile "C:/Users/Administrator/Desktop/THLTDT/Bo du lieu test/matran.txt"
 typedef struct GRAPH
